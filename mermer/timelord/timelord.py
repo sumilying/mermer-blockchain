@@ -7,7 +7,7 @@ import time
 import traceback
 from typing import Callable, Dict, List, Optional, Tuple, Set
 
-from mermervdf import create_discriminant
+from chiavdf import create_discriminant
 
 from mermer.consensus.constants import ConsensusConstants
 from mermer.consensus.pot_iterations import calculate_sp_iters, is_overflow_block

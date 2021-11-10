@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from mermervdf import prove
+from chiavdf import prove
 
 from mermer.consensus.constants import ConsensusConstants
 from mermer.types.blockchain_format.classgroup import ClassgroupElement

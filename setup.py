@@ -3,8 +3,8 @@ from setuptools import setup
 dependencies = [
     "multidict==5.1.0",  # Avoid 5.2.0 due to Avast
     "blspy==1.0.6",  # Signature library
-    "mermervdf==1.0.3",  # timelord and vdf verification
-    "mermerbip158==1.0",  # bip158-style wallet filters
+    "chiavdf==1.0.3",  # timelord and vdf verification
+    "chiabip158==1.0",  # bip158-style wallet filters
     "mermerpos==1.0.6",  # proof of space
     "clvm==0.9.7",
     "clvm_rs==0.1.15",
@@ -26,7 +26,7 @@ dependencies = [
     "sortedcontainers==2.4.0",  # For maintaining sorted mempools
     "websockets==8.1.0",  # For use in wallet RPC and electron UI
     "click==7.1.2",  # For the CLI
-    "dnspythonmermer==2.2.0",  # Query DNS seeds
+    "dnspython==2.2.0",  # Query DNS seeds
     "watchdog==2.1.6",  # Filesystem event watching - watches keyring.yaml
 ]
 

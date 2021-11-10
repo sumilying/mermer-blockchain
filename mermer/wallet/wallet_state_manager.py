@@ -9,7 +9,7 @@ from typing import Any, Callable, Dict, List, Optional, Set, Tuple
 
 import aiosqlite
 from blspy import AugSchemeMPL, G1Element, PrivateKey
-from mermerbip158 import PyBIP158
+from chiabip158 import PyBIP158
 from cryptography.fernet import Fernet
 
 from mermer import __version__

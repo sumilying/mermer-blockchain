@@ -6,7 +6,7 @@ import time
 from concurrent.futures.process import ProcessPoolExecutor
 from typing import Dict, List, Optional, Set, Tuple
 from blspy import G1Element, GTElement
-from mermerbip158 import PyBIP158
+from chiabip158 import PyBIP158
 
 from mermer.util import cached_bls
 from mermer.consensus.block_record import BlockRecord
