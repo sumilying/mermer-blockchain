@@ -4,7 +4,7 @@ from mermer.plotters.madmax import install_madmax
 
 
 def install_plotter(plotter, root_path):
-    if plotter == "mermerpos":
+    if plotter == "chiapos":
         print("Mermerpos already installed. No action taken.")
         return
     elif plotter == "madmax":

@@ -12,9 +12,9 @@ from typing import Any, Dict, Optional
 log = logging.getLogger(__name__)
 
 
-def get_mermerpos_install_info() -> Optional[Dict[str, Any]]:
-    mermerpos_version: str = pkg_resources.get_distribution("mermerpos").version
-    return {"display_name": "Mermer Proof of Space", "version": mermerpos_version, "installed": True}
+def get_chiapos_install_info() -> Optional[Dict[str, Any]]:
+    chiapos_version: str = pkg_resources.get_distribution("chiapos").version
+    return {"display_name": "Mermer Proof of Space", "version": chiapos_version, "installed": True}
 
 
 class Params:

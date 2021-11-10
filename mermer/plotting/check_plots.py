@@ -5,7 +5,7 @@ from time import time, sleep
 from typing import List
 
 from blspy import G1Element
-from mermerpos import Verifier
+from chiapos import Verifier
 
 from mermer.plotting.manager import PlotManager
 from mermer.plotting.util import (

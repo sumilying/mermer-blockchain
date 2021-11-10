@@ -111,7 +111,7 @@ If ($LastExitCode -gt 0){
 }
 
 Write-Output "   ---"
-Write-Output "Increase the stack for mermer command for (mermer plots create) mermerpos limitations"
+Write-Output "Increase the stack for mermer command for (mermer plots create) chiapos limitations"
 # editbin.exe needs to be in the path 
 editbin.exe /STACK:8000000 daemon\mermer.exe
 Write-Output "   ---"

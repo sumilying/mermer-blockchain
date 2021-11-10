@@ -8,7 +8,7 @@ from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Iterator
 from concurrent.futures.thread import ThreadPoolExecutor
 
 from blspy import G1Element
-from mermerpos import DiskProver
+from chiapos import DiskProver
 
 from mermer.consensus.pos_quality import UI_ACTUAL_SPACE_CONSTANT_FACTOR, _expected_plot_size
 from mermer.plotting.util import (
