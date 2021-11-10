@@ -68,20 +68,20 @@ network_overrides: &network_overrides
       DIFFICULTY_STARTING: 30
   config:
     mainnet:
-      address_prefix: "xch"
+      address_prefix: "mmh"
       default_full_node_port: 5444 #8444
     testnet0:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
     testnet1:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
     testnet2:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
     testnet3:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
     testnet4:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
     testnet7:
-      address_prefix: "txch"
+      address_prefix: "tmmh"
       default_full_node_port: 58444 #85444
 
 selected_network: &selected_network "mainnet"
@@ -156,7 +156,7 @@ harvester:
 
 pool:
   # Replace this with a real puzzle hash
-  # xch_target_address: txch102gkhhzs60grx7cfnpng5n6rjecr89r86l5s8xux2za8k820cxsq64ssdg
+  # mmh_target_address: tmmh102gkhhzs60grx7cfnpng5n6rjecr89r86l5s8xux2za8k820cxsq64ssdg
   logging: *logging
   network_overrides: *network_overrides
   selected_network: *selected_network
@@ -176,7 +176,7 @@ farmer:
   pool_public_keys: []
 
   # Replace this with a real puzzle hash
-  # xch_target_address: txch102gkhhzs60grx7cfnpng5n6rjecr89r86l5s8xux2za8k820cxsq64ssdg
+  # mmh_target_address: tmmh102gkhhzs60grx7cfnpng5n6rjecr89r86l5s8xux2za8k820cxsq64ssdg
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
